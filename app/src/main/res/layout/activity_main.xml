@@ -30,7 +30,7 @@
                 android:layout_width="67dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number|numberSigned|numberDecimal" />
         </TableRow>
 
         <TableRow
@@ -49,7 +49,7 @@
                 android:layout_width="67dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number|numberSigned|numberDecimal" />
         </TableRow>
 
         <TableRow
@@ -83,8 +83,9 @@
                 android:layout_height="wrap_content"
                 android:layout_span="2"
                 android:background="#DD9910"
-                android:text="Calcular conta final"
-                android:clickable="true" />
+                android:clickable="true"
+                android:onClick="Calcular"
+                android:text="Calcular conta final" />
 
         </TableRow>
 
